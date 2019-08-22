@@ -4,9 +4,9 @@ module.exports = {
     employee: [
         {
             Id: 1,
-            passport: "hjdshahd.jpg",
+            passport: "https://cdn0.iconfinder.com/data/icons/user-pictures/100/malecostume-512.png",
             firstname: "Ochoko",
-            lastnmae: "Fish",
+            lastnmae: "Ebuka",
             deparment: "Software",
             unit: "Genesys",
             gender: "Male",
@@ -24,9 +24,9 @@ module.exports = {
         },
         {
             Id: 2,
-            passport: "hjdshahd.jpg",
-            firstname: "Ochoko",
-            lastnmae: "Fish",
+            passport: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRhOdcAe3lQFZhummjZ9rdw6pFmszdXQDrNoakl761zXlHGbrZ",
+            firstname: "Nonso",
+            lastnmae: "Prince",
             deparment: "Software",
             unit: "Genesys",
             gender: "Male",
@@ -40,18 +40,18 @@ module.exports = {
             level: 10,
             deparment_id: "1",
             address: "Enugu",
-            username: "Ochoks"
+            username: "nonso"
         },
         {
             Id: 3,
-            passport: "hjdshahd.jpg",
-            firstname: "Ochoko",
-            lastnmae: "Fish",
+            passport: "https://cdn1.iconfinder.com/data/icons/user-pictures/100/female1-512.png",
+            firstname: "Kaduru",
+            lastnmae: "Udochi",
             deparment: "Software",
             unit: "Genesys",
-            gender: "Male",
-            marital_status: "Single",
-            email: "Ochoko@genesystechhub.com",
+            gender: "Female",
+            marital_status: "Married",
+            email: "udochi.kaduru@genesystechhub.com",
             state_of_origin: "Enugu",
             DOB: "12/3/2000",
             employee_role: "programmer",
@@ -60,7 +60,7 @@ module.exports = {
             level: 10,
             deparment_id: "1",
             address: "Enugu",
-            username: "Ochoks"
+            username: "udo"
         }
     ],
     appraisalResult: [

@@ -17,7 +17,7 @@ module.exports = {
             employee_role: "programmer",
             isActive: true,
             date_of_emp: "12/3/18",
-            level: 10,
+            level: 2,
             deparment_id: "1",
             address: "Enugu",
             username: "Ochoks"
@@ -37,7 +37,7 @@ module.exports = {
             employee_role: "programmer",
             isActive: true,
             date_of_emp: "12/3/18",
-            level: 10,
+            level: 5,
             deparment_id: "1",
             address: "Enugu",
             username: "nonso"
@@ -57,7 +57,7 @@ module.exports = {
             employee_role: "programmer",
             isActive: true,
             date_of_emp: "12/3/18",
-            level: 10,
+            level: 7,
             deparment_id: "1",
             address: "Enugu",
             username: "udo"
@@ -109,5 +109,8 @@ module.exports = {
             endScore: 4.99,
             remark: "Unsatisfactory"
         }
+    ],
+    companyLevels: [
+        1, 2, 3, 4, 5, 6, 7, 8, 9, 10
     ]
 }

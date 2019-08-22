@@ -27,5 +27,9 @@ module.exports = function (router) {
         const checkAppraisalCriteria = faker.appraisalResultCriteria.filter(v => appraisalResult > v.startScore && appraisalResult < v.endScore);
         res.send(checkAppraisalCriteria);
     })
+
+    router.get('/company/level', (req, res) => {
+        res.send(faker.companyLevels);
+    })
     return router;
 }

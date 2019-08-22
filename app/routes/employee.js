@@ -11,8 +11,9 @@ module.exports = function (router) {
         res.send(employees);
     })
 
-    router.post('/employee/promotion', (req, res) => {
-        res.send(200);
+    router.post('/employee/:id/promotion/:level', (req, res) => {
+        faker.employee.filter(e => e.Id == req.params.id)[0].level = parseInt(req.params.level);
+        res.send(faker.employee);
     })
 
     router.get('/employee/:id/appraisal/result', (req, res) => {
